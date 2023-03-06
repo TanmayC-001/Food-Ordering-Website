@@ -1,0 +1,179 @@
+/* 
+    Author: Tanmay Chavan
+    Theme: Food Order Website
+    Version; 1.0
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* to put all text in center we can use this class anywhere in any section */
+.text-center {
+  text-align: center;
+  clear: none;
+}
+
+/* to fix that categories and footer section dont come into each other 
+       also add div of clear fix into categories div in index file */
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/* --------------------------------------------------------------- */
+/* CSS for tables(SR.NO, Full name, username,actions) */
+.tbl-full {
+  width: 100%;
+}
+
+/* CSS for table */
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+table tr td {
+  padding: 1%;
+}
+
+/* --------------------------------------------------------------- */
+/* CSS for table in ADD ADMIN link page */
+.tbl-30 {
+  width: 30%;
+}
+/* --------------------------------------------------------------- */
+
+/* CSS for success msg of delete admin */
+.success {
+  color: rgb(44, 165, 33);
+}
+
+/* CSS for fail msg of delete admin */
+.error {
+  color: rgb(255, 10, 10);
+}
+
+/* --------------------------------------------------------------- */
+
+/* CSS for button */
+/* Add admin */
+.btn-primary {
+  background-color: #1e90ff;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #3742fa;
+}
+
+/* update admin */
+.btn-secondary {
+  background-color: rgb(34, 214, 91);
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  background-color: #238f50;
+}
+
+/* Delete admin */
+.btn-danger {
+  background-color: tomato;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-danger:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+/* Change password */
+.btn-changepass {
+  background-color: #ffa502;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-changepass:hover {
+  background-color: #eccc68;
+}
+
+/* --------------------------------------------------------------- */
+/* CSS for menu */
+
+/* to put menu bar items in center but in menu we have added text-center class 
+       along with menu in index file (code reusabilty) SO NO NEED
+    .menu{
+        text-align: center;
+    } */
+
+/* line below menu items bar */
+.menu {
+  border-bottom: 1px solid grey;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+/* to put items in a single line with space */
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+/* Menu items name bold and black */
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffa502;
+}
+
+/* after hover color change from black to */
+.menu ul li a:hover {
+  color: black;
+}
+
+/* --------------------------------------------------------------- */
+
+/* CSS for Main Content */
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+
+/* categories section CSS */
+.col-4 {
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left; /* to float categories section */
+}
+
+/* --------------------------------------------------------------- */
+/* CSS for footer */
+
+/* footer color and text color */
+.footer {
+  background-color: #fae900;
+  color: black;
+}
+
+/* --------------------------------------------------------------- */
